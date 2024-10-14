@@ -1,7 +1,7 @@
 # ESP32 MPU6050 Step Counter & Fall Detection System
 
 This project is a simple IoT-based step counting and fall detection system using an ESP32 microcontroller and the MPU6050 sensor. The system displays real-time step count on an OLED display and provides a web-based interface to monitor accelerometer and gyroscope data along with step count and fall detection alerts.
-
+<img src="/images/photo_2024-10-14_20-50-13.jpg">
 ## Features
 - **Step Counting**: Counts steps using accelerometer data from the MPU6050.
 - **Fall Detection**: Detects potential falls based on specific threshold conditions using both accelerometer and gyroscope data.
@@ -9,6 +9,7 @@ This project is a simple IoT-based step counting and fall detection system using
 - **Wi-Fi Access Point**: ESP32 operates as a Wi-Fi hotspot, allowing users to connect and view data via a web server.
 - **Web Interface**: Displays real-time accelerometer and gyroscope data, step count, and fall alerts on a webpage that automatically refreshes every second.
 
+<img src ="/images/photo_2024-10-14_20-50-35.jpg">
 ## Hardware Requirements
 - **ESP32** (WROOM or any compatible model)
 - **MPU6050** (Accelerometer & Gyroscope Sensor)
@@ -20,6 +21,7 @@ This project is a simple IoT-based step counting and fall detection system using
 - `WiFi.h`: For Wi-Fi access point and web server functionality.
 - `WebServer.h`: To host the webpage on ESP32.
 - `Adafruit_GFX.h` and `Adafruit_SSD1306.h`: For controlling the OLED display.
+
 
 ## Installation and Setup
 
